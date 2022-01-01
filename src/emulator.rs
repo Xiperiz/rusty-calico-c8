@@ -137,8 +137,6 @@ impl Emulator {
                 audio_device.pause();
             }
 
-            // TODO sound
-
             if self.interpreter.draw_flag {
                 texture.with_lock(None, |buffer: &mut [u8], pitch: usize| {
                     for y in 0..32 {
