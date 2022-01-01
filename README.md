@@ -59,6 +59,24 @@ You can omit any argument and the default will be used, below are default values
 
 Keep in mind there are no checks for the values, if you put ridiculous values then expect unexpected behaviour!
 
+### Input
+
+Following CHIP8 keypad
+
+| 1 | 2 | 3 | C |
+|---|---|---|---|
+| 4 | 5 | 6 | D |
+| 7 | 8 | 9 | E |
+| A | 0 | B | F |
+
+was mapped to keys
+
+| 1 | 2 | 3 | 4 |
+|---|---|---|---|
+| Q | W | E | R |
+| A | S | D | F |
+| Z | X | C | V |
+
 ## License
 
 This project is licensed under the [GNU AGPLv3] License - see the [LICENSE.md](LICENSE.md) file for details.
